@@ -1,0 +1,188 @@
+*{margin: 0px;
+  padding: 0px;}
+
+body {background-color: #feedde;}
+
+.main{background-color: #ffffff;
+     width: 940px;
+     height:1000px;
+     margin:0px auto;}
+
+.logo{width: 265px;
+	  height: 60px;
+	  float: left;
+    margin-left: 20px;
+}
+
+nav{width:655px;
+    height: 65px;
+    float: right;
+    }
+
+.h-text{width: 655px;
+  text-align: right;
+  float: right;
+  margin-right: 20px;
+        ;}
+
+
+
+nav ul li {display: inline-block;
+           font-size: 15px;
+           float: left;
+           width: 121px;
+           height: 40px;
+           margin: 3px;
+           text-align: center;
+           padding-top: 10px;
+           ;}
+
+nav ul li:hover{cursor: pointer;
+                 background-color: #ff7f50;}
+
+nav ul li:first-child{background-image: url(bg_img/menu1.png);
+                      background-repeat: no-repeat;
+                      background-color: ;}
+
+nav ul li {background-image: url(bg_img/menu2.png);
+           background-repeat: no-repeat;}
+
+nav ul li:last-child{background-image: url(bg_img/menu3.png);
+           background-repeat: no-repeat;}
+
+.header-line{width: 900px;
+             height: 12px;
+             background-image: url(bg_img/header.png);
+             clear: both;
+             margin: 0px auto 20px;}
+
+.main-back{width:920px;
+           height: 275px;
+           background-image: url(bg_img/main-back);
+           background-repeat: no-repeat;
+           float: left;
+           margin-left: 10px;
+           margin-bottom: 40px;
+           }
+
+
+
+.image{float: left;
+       width:590px;
+       height: 275px;
+       margin-bottom: 40px;
+       padding-left: 20px; }
+
+aside{float: left;
+      width: 268px;
+      height: 275px;
+      margin-left: 22px;
+      margin-bottom: 40px;}
+
+.aside-title{background-color: #ff8900;
+             background-image: url(bg_img/icon1.png);
+             background-repeat: no-repeat;
+             font-size: 12px;
+             color: #ffffff;
+             text-indent: 23px;
+             background-position: 3px 5px;
+             margin-bottom: 10px;}
+
+h4{font-size:14px;
+   background-image: url(bg_img/icon3.png);
+   background-repeat: no-repeat;
+   background-position: 3px 5px;
+   text-indent: 20px;}
+
+.aside-text{font-size: 13px;
+            padding-left: 20px;}
+
+.date{font-size: 10px;
+      text-align: right;}
+
+.news{border-bottom: 1px dashed #808080;}
+
+
+.pickup{background-color: #f5deb3;
+        width: 307px;
+        height:450px;
+        float: left;
+        margin-left:20px; 
+        }
+.pickup-image {margin-left: 20px;}
+
+.pickup-title{background-color: #8d6449;
+             background-image: url(bg_img/icon2.png);
+             background-repeat: no-repeat;
+             font-size: 16px;
+             color: #ffffff;
+             text-indent: 23px;
+             background-position: 2px 5px;
+             width: 100px;
+             margin-top: 10px;
+             margin-left: 20px;
+             margin-bottom: 10px;}
+
+.ninki{width: 555px;
+       height:540px;
+       float: left;
+       margin-left:33px; 
+       }
+
+.ninki-title{background-color: #00a3af;
+             background-image: url(bg_img/icon1.png);
+             background-repeat: no-repeat;
+           background-position: 2px 5px;
+             height: 30px;}
+             
+             
+
+.ninki-title-maintext{color: #ffffff;
+             width: 100px;
+             height: 30px;
+             text-indent: 23px;
+             float: left;
+             font-size: 16px;}
+
+
+
+
+.ninki-title-subtext{
+             width: 550px;
+             height: 20px;
+             text-align: right;
+             font-size: 11px;
+             color: #ffffff;
+             padding-top: 8px;}
+
+.ninki-box{width: 555px;
+           height: 130px;
+           border-top: 1px solid #808080;
+           padding-top: 20px;}
+
+.ninki-image {float: left;
+              margin-right: 10px}
+
+.ninki-text{width: 150px;
+            height: 100%;
+            float: left;
+
+}
+
+p{font-size: 12px;}
+
+.footer{width: 940px;
+        height: 10px;
+        clear: both;
+        background-color: #deb887;
+
+        }
+
+.footer-line{width: 940px;
+             height: 39px;
+             margin: 0 auto;
+             background-image: url(bg_img/footer.png);
+             text-align: center;
+             color: #ffffff;
+             padding-top: 6px;}
+
