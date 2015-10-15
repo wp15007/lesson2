@@ -5,7 +5,7 @@ body {background-color: #feedde;}
 
 .main{background-color: #ffffff;
      width: 940px;
-     height:1000px;
+     /*height:1000px;*/
      margin:0px auto;}
 
 .logo{width: 265px;
@@ -35,16 +35,31 @@ nav ul li {display: inline-block;
            margin: 3px;
            text-align: center;
            vertical-align: middle;
-           line-height:45px;}
+           line-height:45px;
+           }
+
+.current a {color: #ff8900;}
+
+nav ul li a{ text-decoration: none;}
+
+nav ul li a:link {color:#000000;
+  }/*未訪問*/
+
+
+nav ul li a:visited {color:#888888;}/*訪問済み*/
 
 nav ul li:hover{cursor: pointer;
-                 background-color: #ff7f50;
-                 background-color: }
+                 background-color: #ff8900;
+                 }/*マウスを載せてる間*/
+nav ul li a:hover{ color: #ffffff;}
+
+nav ul li a:active {color:#FF8000;}/*押してる間*/
+
+
 
 nav ul li:first-child{background-image: url(bg_img/menu1.png);
                       background-repeat: no-repeat;
-                      background-color:#ff8900;
-                      color: #ffffff;}
+                      }
 
 nav ul li {background-image: url(bg_img/menu2.png);
            background-repeat: no-repeat;}
@@ -187,4 +202,84 @@ p{font-size: 12px;}
              text-align: center;
              color: #ffffff;
              padding-top: 6px;}
+
+article{width: 900px;
+        /*height: 600px;*/
+        margin: 0px auto;}
+
+.page-title{width:900px;
+            height: 30px;
+            background-color: #ff8900;
+            margin-bottom: 30px;
+            }
+
+.page-title-maintext{color: #ffffff;
+             width: 400px;
+             /*height: 10px;*/
+             text-indent: 25px;
+             float: left;
+             font-size: 16px;
+             background-image: url(bg_img/icon1.png);
+             background-repeat: no-repeat;
+             background-position: 5px 0px;
+             padding-top: 0px;}
+
+
+
+
+.page-title-subtext{
+             width: 500px;
+             height: 20px;
+             float: right;
+             text-align: right;
+             font-size: 11px;
+             color: #ffffff;
+             padding-top: 8px;}
+
+.sidebar{width: 200px;
+         float: left;
+         border: 1px solid #ff8900;}
+
+.sidebar ul li{border: 1px solid #ff8900;
+               background-image: url(bg_img/icon4.png);
+               background-repeat: no-repeat;
+               padding-left: 20px;
+               font-size:14px;
+               background-position: 4px 6px;}
+
+.sidebar h3{background: #ff8900;
+            color: #ffffff;
+            font-size: 14px;
+            padding-left: 5px;}
+
+.products{width: 670px;
+          /*height: 1000px;*/
+          float: right;
+          margin-bottom: 40px;}
+
+ul li{list-style-type: none;}
+
+.category-image{float: left;}
+
+.category-text{}
+
+
+.price{}
+
+.clear{clear: both;}
+
+.category-title{background-color:#f0f0f0;
+                width: 670px;
+                height: 23px;
+                color: #ff8900;
+                font-size: 10px;
+                text-indent: 20px;
+                background-image: url(bg_img/icon1a.png);
+                background-repeat: no-repeat;
+                margin-bottom: 20px}
+
+.category-image{margin : 0px 20px 20px 0px;}
+
+
+
 
