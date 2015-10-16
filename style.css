@@ -15,7 +15,7 @@ body {background-color: #feedde;}
 }
 
 nav{width:655px;
-    height: 65px;
+    height: 60px;
     float: right;
     }
 
@@ -27,7 +27,7 @@ nav{width:655px;
 
 
 
-nav ul li {display: inline-block;
+nav ul li a{display: inline-block;
            font-size: 15px;
            float: left;
            width: 121px;
@@ -40,7 +40,7 @@ nav ul li {display: inline-block;
 
 .current a {color: #ff8900;}
 
-nav ul li a{ text-decoration: none;}
+
 
 nav ul li a:link {color:#000000;
   }/*未訪問*/
@@ -48,23 +48,24 @@ nav ul li a:link {color:#000000;
 
 nav ul li a:visited {color:#888888;}/*訪問済み*/
 
-nav ul li:hover{cursor: pointer;
+nav ul li a:hover{cursor: pointer;
                  background-color: #ff8900;
                  }/*マウスを載せてる間*/
-nav ul li a:hover{ color: #ffffff;}
+
+nav ul li a:hover{color: #ffffff;}
 
 nav ul li a:active {color:#FF8000;}/*押してる間*/
 
+nav ul li a{ text-decoration: none;}
 
-
-nav ul li:first-child{background-image: url(bg_img/menu1.png);
+nav ul li a:first-child{background-image: url(bg_img/menu1.png);
                       background-repeat: no-repeat;
                       }
 
-nav ul li {background-image: url(bg_img/menu2.png);
+nav ul li a{background-image: url(bg_img/menu2.png);
            background-repeat: no-repeat;}
 
-nav ul li:last-child{background-image: url(bg_img/menu3.png);
+nav ul li a:last-child{background-image: url(bg_img/menu3.png);
            background-repeat: no-repeat;}
 
 .header-line{width: 900px;
@@ -268,7 +269,9 @@ ul li{list-style-type: none;}
 .category-text{}
 
 
-.price{}
+.price{color:#8b4513;
+       font-weight: bold;
+       font-size: 15px;}
 
 .clear{clear: both;}
 
@@ -303,5 +306,6 @@ td{
   text-align: left;
   border-top: 1px solid #808080;
 }
+
 
 
