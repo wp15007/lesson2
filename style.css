@@ -203,6 +203,8 @@ p{font-size: 12px;}
              color: #ffffff;
              padding-top: 6px;}
 
+/*子ページここから*/
+
 article{width: 900px;
         /*height: 600px;*/
         margin: 0px auto;}
@@ -235,6 +237,8 @@ article{width: 900px;
              font-size: 11px;
              color: #ffffff;
              padding-top: 8px;}
+
+/*商品のご案内ここから*/
 
 .sidebar{width: 200px;
          float: left;
@@ -280,6 +284,8 @@ ul li{list-style-type: none;}
 
 .category-image{margin : 0px 20px 20px 0px;}
 
+/*スタッフ紹介ここから*/
 
+/*店舗のご案内ここから*/
 
 
