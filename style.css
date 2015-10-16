@@ -288,4 +288,20 @@ ul li{list-style-type: none;}
 
 /*店舗のご案内ここから*/
 
+th{
+   background:#dfdfdf;
+   font-weight: normal;
+   font-size: 15px;
+   padding:0px;
+   margin: 0px;
+   border-top:1px solid #808080;
+   text-align: left;  
+   color: #ff8900;
+}
+
+td{
+  text-align: left;
+  border-top: 1px solid #808080;
+}
+
 
